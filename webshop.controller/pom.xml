@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>webshop.core</artifactId>
+    <artifactId>webshop.controller</artifactId>
 
-    <name>webshop.core</name>
+    <name>webshop.controller</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
