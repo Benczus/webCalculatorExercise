@@ -1,13 +1,57 @@
 <!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Webshop Exercise Web Application</display-name>
-  
-  
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>WEB-INF/dispatcher-servlet.xml</param-value>
-  </context-param>
+    <display-name>Webshop Exercise Web Application</display-name>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>WEB-INF/dispatcher-servlet.xml</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>AdditionServlet</servlet-name>
+        <servlet-class>web.config.AdditionServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DivisionServlet</servlet-name>
+        <servlet-class>web.config.DivisionServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SubtractionServlet</servlet-name>
+        <servlet-class>web.config.SubtractionServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet>
+        <servlet-name>MultiplicationServlet</servlet-name>
+        <servlet-class>web.config.MultiplicationServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdditionServlet</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SubtractionServlet</servlet-name>
+        <url-pattern>/sub</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MultiplicationServlet</servlet-name>
+        <url-pattern>/mult</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DivisionServlet</servlet-name>
+        <url-pattern>/div</url-pattern>
+    </servlet-mapping>
+
 </web-app>
