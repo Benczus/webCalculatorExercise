@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>webshop.core</module>
-        <module>webshop.web</module>
-        <module>webshop.controller</module>
-        <module>webshop.service</module>
+        <module>webshop-core</module>
+        <module>webshop-web</module>
+        <module>webshop-controller</module>
+        <module>webshop-service</module>
     </modules>
 
     <name>webShopExercise</name>
