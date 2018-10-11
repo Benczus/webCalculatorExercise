@@ -11,7 +11,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CalculatorApplicationContext {
 
-    @Autowired Calculator calculator;
+    private final Calculator calculator;
+
+    @Autowired
+    public CalculatorApplicationContext(Calculator calculator) {
+        this.calculator = calculator;
+    }
 
     @Bean
     public CalculatorController calculatorController(){
