@@ -18,7 +18,7 @@ Failing to show up will result in a failure.
 
 The test, will contain the following:
 - Questions about the general knowledge of back-end web development
-- Talk about the developed code. This may include short questions about the development choices of the code, or deeper structura or design choices.
+- Talk about the developed code. This may include short questions about the development choices of the code, or deeper structural or design choices.
 - Coding test. The student will be asked to implement a predefined feature into her/his code. 
 
 The results of the test can be categorized by the following points:
