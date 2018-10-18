@@ -1,6 +1,6 @@
 package web.config;
 
-import hu.iit.me.CalculatorController;
+import hu.iit.me.controller.CalculatorController;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

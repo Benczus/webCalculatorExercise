@@ -15,6 +15,7 @@
     <context:component-scan base-package="web.config"/>
 
 
+
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
 
