@@ -26,9 +26,7 @@ The results of the test can be categorized by the following points:
 - Sucessfully completing some of these test will result in course completion. After completing the course, the student will have to sucessfully complete a test to get a grade at a later date.
 - Sucessfully completing all challenges, the student will be given a grade
 
-# Code Quallity
-
-This section will contain requirements regarding general good practices in software development and code quallity.
+# General Requirements
 
 Failing the meet the following requirements will result in failure:
 - The code should be clear about intention and purpose ( no button, button2, valamivaltozo, valamimetodus variable, method or class names please)
