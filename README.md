@@ -9,7 +9,7 @@ In order to successfully complete this class, students have to solve the followi
  
  - Open the assignment.png, and study the model thoroughly. Any complaints regarding the model should be reported to the practical teacher.
  - The assignment is separated into two "subassignments". Please refer to the "assignmentList" text file  which contains student's neptun codes, grouped by which assignment they were assigned to. These groups are final, and the completion of the wrong assignment will result in failure. Complaints regarding this is a non-issue.  
- - In the event of a completed assignment, please send an email to the practical lesson's teacher. The topic should be the following: WEBDEV - ${YOUR_NAME}
+ - In the event of a completed assignment, please send an email to the practical lesson's teacher. The subject should be the following: WEBDEV - ${YOUR_NAME}
  
 # Gradation
 
