@@ -1,5 +1,5 @@
 # WEBAppDev_webShopExercise
-This is the repository for the WEB Application Development practical class.
+This is the repository for the WEB Application Development tutorial.
 The repository will be updated each week with the work done during class. 
 If you are planning to visit, please study the previous commits to have a better understanding of the following practical class.
 
@@ -16,15 +16,31 @@ In order to successfully complete this class, students have to solve the followi
 The student who have completed the assignment will be called in for a code check, and test. 
 Failing to show up will result in a failure.
 
-The test, will contain the following:
-- Questions about the general knowledge of back-end web development
-- Talk about the developed code. This may include short questions about the development choices of the code, or deeper structural or design choices.
-- Coding test. The student will be asked to implement a predefined feature into her/his code. 
+The offered mark will be evaluated during a personal talk.
 
-The results of the test can be categorized by the following points:
-- Failing to complete any of these tests will result in a failure.
-- Sucessfully completing some of these test will result in course completion. After completing the course, the student will have to sucessfully complete a test to get a grade at a later date.
-- Sucessfully completing all challenges, the student will be given a grade
+During the evaluation, the following commands will be run: 
+The assignment codebase will be cloned with git.
+The assignment will be packaged using mvn package. 
+The eassignmnet will be deployed on a Tomcat 8.5 server.
+
+Failing to complete any of these steps will result in a failed mark.
+
+The following setup will be used during the evalutaion:
+
+JDK8
+openjdk 10.0.2 2018-07-17
+OpenJDK Runtime Environment (build 10.0.2+13-Ubuntu-1ubuntu0.18.04.2)
+OpenJDK 64-Bit Server VM (build 10.0.2+13-Ubuntu-1ubuntu0.18.04.2, mixed mode)
+
+MAVEN
+Apache Maven 3.5.2
+Maven home: /usr/share/maven
+Java version: 10.0.2, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-36-generic", arch: "amd64", family: "unix"
+
+
 
 # General Requirements
 
