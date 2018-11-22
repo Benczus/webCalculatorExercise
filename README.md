@@ -27,18 +27,14 @@ Failing to complete any of these steps will result in a failed mark.
 
 The following setup will be used during the evalutaion:
 
-JDK8
-- openjdk 10.0.2 2018-07-17
-- OpenJDK Runtime Environment (build 10.0.2+13-Ubuntu-1ubuntu0.18.04.2)
-- OpenJDK 64-Bit Server VM (build 10.0.2+13-Ubuntu-1ubuntu0.18.04.2, mixed mode)
-
 MAVEN
-- Apache Maven 3.5.2
-- Maven home: /usr/share/maven
-- Java version: 10.0.2, vendor: Oracle Corporation
-- Java home: /usr/lib/jvm/java-11-openjdk-amd64
-- Default locale: en_US, platform encoding: UTF-8
-- OS name: "linux", version: "4.15.0-36-generic", arch: "amd64", family: "unix"
+Apache Maven 3.5.2
+Maven home: /usr/share/maven
+Java version: 1.8.0_181, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.15.0-39-generic", arch: "amd64", family: "unix"
+
 
 
 
